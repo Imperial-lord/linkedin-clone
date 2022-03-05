@@ -9,13 +9,14 @@ const config = {
   title: 'LinkedIn Clone',
   tagline:
     "Let's explore all the amazing features of LinkedIn and explore them together, while building the application from scratch.",
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://imperial-lord.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'AB Satyaprakash', // Usually your GitHub org/user name.
+  organizationName: 'Imperial-lord', // Usually your GitHub org/user name.
   projectName: 'linkedin-clone', // Usually your repo name.
+  trailingSlash: false,
 
   presets: [
     [
