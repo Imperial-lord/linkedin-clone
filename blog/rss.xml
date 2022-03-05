@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>LinkedIn Clone Blog</title>
+        <link>https://imperial-lord.github.io/blog</link>
+        <description>LinkedIn Clone Blog</description>
+        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Welcome]]></title>
+            <link>https://imperial-lord.github.io/blog/welcome</link>
+            <guid>welcome</guid>
+            <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is page is still being worked on. Meanwhile, you can take a nap like those dinos. Thank you for your patience.]]></description>
+            <content:encoded><![CDATA[<p>This is page is still being worked on. Meanwhile, <strong>you can take a nap like those dinos</strong>. Thank you for your patience.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500"></p><p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>]]></content:encoded>
+            <category>blog</category>
+            <category>coming-soon</category>
+            <category>docusaurus</category>
+        </item>
+    </channel>
+</rss>
