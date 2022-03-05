@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://imperial-lord.github.io/blog</id>
+    <id>https://imperial-lord.github.io/linkedin-clone/blog</id>
     <title>LinkedIn Clone Blog</title>
     <updated>2021-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://imperial-lord.github.io/blog"/>
+    <link rel="alternate" href="https://imperial-lord.github.io/linkedin-clone/blog"/>
     <subtitle>LinkedIn Clone Blog</subtitle>
-    <icon>https://imperial-lord.github.io/img/favicon.ico</icon>
+    <icon>https://imperial-lord.github.io/linkedin-clone/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>
-        <link href="https://imperial-lord.github.io/blog/welcome"/>
+        <link href="https://imperial-lord.github.io/linkedin-clone/blog/welcome"/>
         <updated>2021-08-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This is page is still being worked on. Meanwhile, you can take a nap like those dinos. Thank you for your patience.]]></summary>
-        <content type="html"><![CDATA[<p>This is page is still being worked on. Meanwhile, <strong>you can take a nap like those dinos</strong>. Thank you for your patience.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500"></p><p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>]]></content>
+        <content type="html"><![CDATA[<p>This is page is still being worked on. Meanwhile, <strong>you can take a nap like those dinos</strong>. Thank you for your patience.</p><p><img loading="lazy" alt="Docusaurus Plushie" src="/linkedin-clone/assets/images/docusaurus-plushie-banner-a60f7593abca1e3eef26a9afa244e4fb.jpeg" width="1500" height="500"></p><p><a href="https://docusaurus.io/docs/blog" target="_blank" rel="noopener noreferrer">Docusaurus blogging features</a> are powered by the <a href="https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog" target="_blank" rel="noopener noreferrer">blog plugin</a>.</p>]]></content>
         <author>
             <name>AB Satyaprakash</name>
             <uri>https://www.linkedin.com/in/ab-satyaprakash/</uri>
