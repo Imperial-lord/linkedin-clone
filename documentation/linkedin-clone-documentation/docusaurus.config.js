@@ -10,7 +10,7 @@ const config = {
   tagline:
     "Let's explore all the amazing features of LinkedIn and explore them together, while building the application from scratch.",
   url: 'https://imperial-lord.github.io',
-  baseUrl: '/',
+  baseUrl: '/linkedin-clone/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
