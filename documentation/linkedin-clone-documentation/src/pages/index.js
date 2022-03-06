@@ -26,7 +26,10 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout title={`${siteConfig.title}`} description='Description will go into a meta tag in <head />'>
+    <Layout
+      title={`${siteConfig.title}`}
+      description='Tutorials and blogs accompanying LinkedIn Clone series on YouTube'
+    >
       <HomepageHeader />
       <main>
         <HomepageFeatures />
