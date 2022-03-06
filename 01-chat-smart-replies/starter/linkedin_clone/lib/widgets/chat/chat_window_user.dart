@@ -19,17 +19,17 @@ class _ChatWindowUserState extends State<ChatWindowUser> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 10),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 5),
+            const Padding(
+              padding: EdgeInsets.symmetric(vertical: 5),
               child: CircleAvatar(
                 radius: 30,
-                backgroundImage: NetworkImage(chatStore.peerImage),
+                backgroundImage: NetworkImage(
+                    'https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg'),
               ),
             ),
-            Text(chatStore.peerName,
-                style: Theme.of(context).textTheme.subtitle2),
-            Text(
-                '${chatStore.peerHeadline} • Youtube • Mathematics & Computing, IIT Guwahati'),
+            Text('Random name', style: Theme.of(context).textTheme.subtitle2),
+            const Text(
+                'XYZ at PQR Company • Youtube • Mathematics & Computing, IIT Guwahati'),
           ],
         ),
       );

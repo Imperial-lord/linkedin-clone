@@ -8,7 +8,7 @@ Radar is a leading geofencing platform. It helps build best-in-class location-ba
 
 ## Getting Started
 
-Create a new radar account. Once done open your dashboard to get the keys. They key we will need is of the type `Live publishable (client)`. Copy this key.
+Create a new radar account. Once done open your [dashboard](https://radar.com/dashboard) to get the keys. They key we will need is of the type `Live publishable (client)`. Copy this key.
 
 ![Radar](/img/tutorial/chat-smart-replies/radar.png)
 

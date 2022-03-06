@@ -8,7 +8,7 @@ To allow social authentication with Google, we make use of the following plugin 
 
 ## Setup your OAuth App
 
-This is a very simple step. Go to your developer settings and create a new OAuth app. Add details as requested, add the callback URL and finally make a note of the `Client ID` and `Client Secret`.
+You can follow the steps for this in the [GitHub docs](https://docs.github.com/en/developers/apps/building-oauth-apps). Go to your developer settings and create a new OAuth app. Add details as requested, add the callback URL and finally make a note of the `Client ID` and `Client Secret`.
 
 ![GitHub](/img/tutorial/chat-smart-replies/github.png)
 

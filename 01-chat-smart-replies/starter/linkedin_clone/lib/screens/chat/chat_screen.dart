@@ -1,4 +1,3 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:linkedin_clone/stores/chat_store.dart';
 import 'package:linkedin_clone/stores/user_store.dart';
@@ -39,20 +38,10 @@ class _ChatScreenState extends State<ChatScreen> {
           ),
           title: Text(chatStore.peerName),
           actions: [
-            // IconButton(onPressed: () {}, icon: const Icon(Icons.more_vert)),
             PopupMenuButton(
                 itemBuilder: (_) => [
                       PopupMenuItem(
-                          onTap: () => FirebaseFirestore.instance
-                                  .collection('Messages')
-                                  .doc(groupChatId)
-                                  .collection(groupChatId)
-                                  .get()
-                                  .then((snapshot) {
-                                for (DocumentSnapshot ds in snapshot.docs) {
-                                  ds.reference.delete();
-                                }
-                              }),
+                          onTap: () {},
                           child: const Text('Delete conversation'))
                     ]),
             IconButton(onPressed: () {}, icon: const Icon(Icons.video_call)),

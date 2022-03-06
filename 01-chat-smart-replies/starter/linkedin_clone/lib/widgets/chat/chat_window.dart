@@ -5,8 +5,6 @@ import 'package:provider/provider.dart';
 import '../../helpers/chat_handler.dart';
 import '../../stores/chat_store.dart';
 import '../../stores/user_store.dart';
-import 'chat_input.dart';
-import 'chat_window_user.dart';
 import 'common_chat_widgets.dart';
 
 class ChatWindow extends StatefulWidget {
@@ -79,55 +77,21 @@ class _ChatWindowState extends State<ChatWindow> {
     // The scrollable list of all messages
     // Note that you can add a limit to the messages fetched at a time
     // to reduce the number of documents read
-    return Expanded(
-      child: groupChatId == ''
-          ? const Center(child: CircularProgressIndicator())
-          : StreamBuilder<QuerySnapshot>(
-              stream: FirebaseFirestore.instance
-                  .collection('Messages')
-                  .doc(groupChatId)
-                  .collection(groupChatId)
-                  .orderBy('timestamp', descending: true)
-                  .snapshots(),
-              builder: (context, snapshot) {
-                if (!snapshot.hasData) {
-                  return const Center(child: CircularProgressIndicator());
-                } else {
-                  listMessage = snapshot.data!.docs;
-                  chatStore.chatMessages = [];
-                  for (int i = listMessage.length - 1; i >= 0; i--) {
-                    chatStore.addChatMessages(listMessage[i].get('content'),
-                        listMessage[i].get('idFrom'));
-                  }
-
-                  return Padding(
-                    padding: const EdgeInsets.only(left: 10),
-                    child: ListView.builder(
-                      padding: EdgeInsets.zero,
-                      itemBuilder: (context, index) =>
-                          buildItem(index, (snapshot.data?.docs)![index]),
-                      itemCount: snapshot.data?.docs.length,
-                      reverse: true,
-                      controller: listScrollController,
-                    ),
-                  );
-                }
-              },
-            ),
-    );
+    return Container();
   }
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
+      children: const [
         // user intro
-        const ChatWindowUser(),
-        const Divider(),
+
+        // add divider between chat and user intro
+
         // add chat stuff here
-        buildListMessage(),
-        const ChatInput(),
+
+        // add the chat input stuff here
       ],
     );
   }

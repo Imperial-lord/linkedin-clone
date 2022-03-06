@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:linkedin_clone/widgets/chat/chat_suggestions.dart';
 import 'package:provider/provider.dart';
 
 import '../../helpers/chat_handler.dart';
@@ -79,7 +78,8 @@ class _ChatInputState extends State<ChatInput>
       return Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          const ChatSuggestions(),
+          // add suggestions widget here
+
           const Divider(),
           Row(
             children: [
