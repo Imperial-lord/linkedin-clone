@@ -8,7 +8,7 @@ For this project we are going to use Firebase. Firebase is a platform developed 
 
 ## Adding application to Firebase
 
-After creating your new Firebase project, add applications to firebase. You can do that by clicking on the add app button. The instructions are straight forward from there and are well-documented in the Firebase docs.
+After creating your new Firebase project, add applications to firebase. You can do that by clicking on the add app button. The instructions are straight forward from there and are well-documented in the [Firebase docs](https://firebase.google.com/docs).
 
 ![Firebase](/img/tutorial/chat-smart-replies/firebase.png)
 
