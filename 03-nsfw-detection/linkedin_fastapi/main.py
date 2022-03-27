@@ -3,8 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import gunicorn
 from pydantic import BaseModel
-from model_nsfw_images import predict_nsfw_images
-from model_nsfw_text import predict_nsfw_text
+from nsfw_images import predict_nsfw_images
 import numpy as np
 
 app = FastAPI()
