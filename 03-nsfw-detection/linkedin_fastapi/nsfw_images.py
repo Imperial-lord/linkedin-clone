@@ -20,6 +20,6 @@ def predict_nsfw_images(url):
 
 
 # Sample use case of the function
-prediction = predict_nsfw_images(
-    'https://m.economictimes.com/thumb/msid-88176845,width-1200,height-900,resizemode-4,imgsize-81188/google-india.jpg')
-print(prediction)
+# prediction = predict_nsfw_images(
+#     'https://m.economictimes.com/thumb/msid-88176845,width-1200,height-900,resizemode-4,imgsize-81188/google-india.jpg')
+# print(prediction)
